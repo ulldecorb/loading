@@ -1,9 +1,9 @@
 /*    
     TODO:
 
-    1# create dom element && add class "snake"
-    2# fade-in : insert child nodes on container
-    3# fade-out : fade out loading element
+    1# create dom element && add size and class "snake"
+    2# fade-in : insert child nodes on container by delay
+    3# fade-out : fade out loading elements by delay
 
 */
 
