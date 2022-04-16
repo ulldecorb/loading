@@ -1,0 +1,2 @@
+# loading
+Frontend loading animation. 
