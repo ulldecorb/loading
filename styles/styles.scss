@@ -96,107 +96,25 @@ body {
     }
 }
 
-  @keyframes last-borders {
-    0% {
-      opacity: 1;
-      bottom: 0;
-      right: 0;
-      height: 0;
-      width: 0;
-    }
-    50% {
-      bottom: 0;
-      right: 0;
-      height: 0%;
-      width: 100%;
-    }
-    100% {
-      bottom: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 1;
-    }
+@keyframes last-borders {
+  0% {
+    opacity: 1;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+  }
+  50% {
+    bottom: 0;
+    right: 0;
+    height: 0%;
+    width: 100%;
+  }
+  100% {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .snake__fade-in {animation: snake 8s 1 linear forwards;}
-@keyframes snake {
-    0% { 
-        border-top: 8px solid transparent;
-        border-left: 8px solid transparent;
-        border-bottom: 8px solid transparent;
-        border-right: 8px solid transparent;
-    }
-    20% { 
-        border-top: 8px solid transparent;
-        border-left: 8px solid transparent;
-        border-bottom: 8px solid transparent;
-        border-right: 8px solid rgb(143, 91, 14);
-    }
-    40% { 
-        border-top: 8px solid rgb(143, 91, 14);
-        border-left: 8px solid transparent;
-        border-bottom: 8px solid transparent;
-        border-right: 8px solid rgb(143, 91, 14);
-    }
-    60% { 
-        border-top: 8px solid rgb(143, 91, 14);
-        border-left: 8px solid rgb(143, 91, 14);
-        border-bottom: 8px solid transparent;
-        border-right: 8px solid rgb(143, 91, 14);
-    }
-    80% { 
-        border-top: 8px solid rgb(143, 91, 14);
-        border-left: 8px solid rgb(143, 91, 14);
-        border-bottom: 8px solid rgb(143, 91, 14);
-        border-right: 8px solid rgb(143, 91, 14);
-    }
-    100% {
-        border-top: 8px solid rgb(143, 91, 14);
-        border-left: 8px solid rgb(143, 91, 14);
-        border-bottom: 8px solid rgb(143, 91, 14);
-        border-right: 8px solid rgb(143, 91, 14);
-    }
-}
-
-
-
-// .snake__6{
-//     height: 30vmin;
-//     width: 30vmin;
-// }
-// .snake__5{
-//     height: 37vmin;
-//     width: 37vmin;
-// }
-// .snake__4{
-//     height: 44vmin;
-//     width: 44vmin;
-// }
-// .snake__3{
-//     height: 51vmin;
-//     width: 51vmin;
-// }
-// .snake__2{
-//     height: 58vmin;
-//     width: 58vmin;
-// }
-// .snake__1{
-//     height: 65vmin;
-//     width: 65vmin;
-// }
