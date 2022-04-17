@@ -31,7 +31,6 @@ body {
   width: 70vmin;
   -webkit-transform: rotateY(180deg) rotate(-135deg);
           transform: rotateY(180deg) rotate(-135deg);
-  color: greenyellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,8 +76,6 @@ body {
 }
 
 .snake {
-  height: 90%;
-  width: 90%;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
